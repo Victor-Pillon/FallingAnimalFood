@@ -90,7 +90,9 @@ class Menu {
     textAlign(CENTER, CENTER);
     textSize(16);
     text("Em uma pacata floresta brasileira, três animais de diferentes espécies se tornaram amigos inseparáveis. César, o macaco mais preguiçoso da floresta, Alvin, um rápido mas pequeno esquilo, e Pedro, um pássaro hiperativo que quer fazer tudo ao mesmo tempo. Certo dia, os três amigos se viram em uma situação crítica: uma construtora chegou na floresta onde habitam e começou a cortar todas as árvores. Desesperados, eles perceberam que precisavam coletar o máximo de alimento possível antes que todas as árvores fossem derrubadas, pois as frutas que caem no chão são destroçadas e não podem ser aproveitadas. Agora, cada um deles deve usar suas habilidades únicas para coletar as frutas e nozes caindo das árvores para sobreviverem.", width / 2, height / 2, width - 100, height);
-
+    textMode(MODEL);
+    textAlign(BASELINE, BASELINE);
+    text("Integrantes: Victor, Lukas, Danilo", 10, 16);
     // Draw back button
     drawButton(width / 2, height - 50, BUTTON_WIDTH, BUTTON_HEIGHT, "Back");
   }
